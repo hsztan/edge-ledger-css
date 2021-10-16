@@ -50,6 +50,10 @@ img {
   position: fixed;
   top: 0px;
   padding: 0 30px;
+  transition: 0.5s ease-in;
+}
+.navbar.top {
+  background: transparent;
 }
 .navbar a {
   color: #fff;
@@ -68,8 +72,7 @@ img {
 
 /* Header */
 .hero {
-  background: url('../image_resources/home/showcase.jpg') no-repeat center
-    center/cover;
+  background: url('../images/home/showcase.jpg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #fff;
@@ -102,6 +105,12 @@ img {
 }
 .hero * {
   z-index: 10;
+}
+
+/* Blog-page */
+.hero.blog {
+  background: url('../images/home/blog.jpg') no-repeat center center/cover;
+  height: 30vh;
 }
 
 /* Icons */
@@ -156,6 +165,28 @@ img {
   margin-top: 20px;
 }
 
+/* post page */
+.post {
+  padding: 50px 30px;
+}
+
+.post h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post .meta {
+  margin-bottom: 30px;
+}
+
+.post img {
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+}
 /* footer */
 .footer {
   display: flex;
