@@ -174,3 +174,26 @@ img {
 .footer .social > * {
   padding: 0 15px;
 }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: 100px;
+    padding: 10px 0;
+  }
+  .navbar a {
+    padding: 50px 10px;
+  }
+  .flex-items {
+    flex-direction: column;
+  }
+  .flex-columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .team img {
+    width: 80%;
+  }
+}
